@@ -1,0 +1,34 @@
+.grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-auto-rows: 30px;
+    gap: 2px;
+}
+
+.header, .row {
+    box-sizing: border-box;
+    border: 2px solid black;
+    display: flex;
+    text-align: center;
+    line-height: 30px;
+}
+
+#search_container {
+    border-radius: 15px;
+}
+
+#rows_container {
+    display: contents;
+}
+
+#search {
+    width: 100%;
+    padding-left: 10px;
+    border: none;
+    border-radius: 15px;
+    text-align: left;
+}
+
+#rows_container div:hover {
+    background-color: lightgrey;
+}
